@@ -1,0 +1,43 @@
+<div class="center hero-unit">
+
+<div id="myCarousel" class="carousel slide" style="float: right; margin-left: 30px; margin-bottom: 5px; position:relative; top:-40px">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+  <!-- Carousel items -->
+  <div class="carousel-inner" style="float: right; margin-left: 30px; margin-bottom: 5px; position:relative; top:-40px">
+    <div class="active item"><%= image_tag("rsu.jpg" , size: "400x300") %></div>
+    <div class="item"><%= image_tag("rsu1.jpg", size: "400x300") %></div>
+    <div class="item"><%= image_tag("rsu1.jpg", alt: "rss feed") %></div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+  <h1 style = "font-size: 24pt; text-align: left">La ayuda Uniandina ha cambiado</h1>
+
+  <h2 style = "text-align: left;">
+    Participa en proyectos de responsabilidad social, encuentra el que más te gusta y entérate.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<div class="row">
+	<div class="span4">
+		<h2>Descubre</h2>
+		<p>Contamos con un gran número de fundaciones vinculadas, busca la que más se adapte a tus gustos.</p>
+	</div>	
+	<div class="span4">
+		<h2>Enlistate</h2>
+		<p>Contactanos para iniciar tu proceso de participación</p>
+	</div>	
+	<div>
+		<h2>Participa</h2>
+		<p>Inicia tu proceso de participación ahora, son muchas las cosas que tienes por aprender y aportar</p>
+	</div>	
+
+
+
