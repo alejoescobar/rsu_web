@@ -17,6 +17,7 @@ html {
 }
 
 body {
+  background:url(assets/textured_paper.png);
   padding-top: 60px;
 }
 
@@ -84,6 +85,9 @@ p {
 /* footer */
 
 footer {
+  position:fixed;
+  bottom:20px;
+  width:50%;
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid $grayMediumLight;

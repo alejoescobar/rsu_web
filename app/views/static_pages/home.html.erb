@@ -1,41 +1,38 @@
 <div class="center hero-unit">
+	
+<!--<img src="http://blogs.as.com/.a/6a00d83451bf7069e2017d42219079970c-450wi" style="float: right; margin-left: 30px; margin-bottom: 5px; position:relative; top:-45px">-->
 
-<div id="myCarousel" class="carousel slide" style="float: right; margin-left: 30px; margin-bottom: 5px; position:relative; top:-40px">
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
+<div id="myCarousel" class="carousel slide" style="float: right; margin-left: 30px; margin-bottom: 5px; position:relative; top:-45px">
   <!-- Carousel items -->
-  <div class="carousel-inner" style="float: right; margin-left: 30px; margin-bottom: 5px; position:relative; top:-40px">
-    <div class="active item"><%= image_tag("rsu.jpg" , size: "400x300") %></div>
-    <div class="item"><%= image_tag("rsu1.jpg", size: "400x300") %></div>
-    <div class="item"><%= image_tag("rsu1.jpg", alt: "rss feed") %></div>
+  <div class="carousel-inner">
+    <div class="active item"><%=image_tag "rsu.jpg"%></div>
+    <div class="item"><%=image_tag "rsu1.jpg", style:"width:450px; height:300px"%></div>
   </div>
   <!-- Carousel nav -->
-  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev" style="top:50%">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next" style="top:50%">&rsaquo;</a>
 </div>
+
   <h1 style = "font-size: 24pt; text-align: left">La ayuda Uniandina ha cambiado</h1>
 
   <h2 style = "text-align: left;">
-    Participa en proyectos de responsabilidad social, encuentra el que más te gusta y entérate.
+    Participa en proyectos de responsabilidad social, encuentra el que más te gusta y participa.
   </h2>
 
-  <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+  <%= link_to "¡Empieza ahora!", signup_path, class: "btn btn-large btn-primary" %>
 </div>
 
 <div class="row">
 	<div class="span4">
-		<h2>Descubre</h2>
+		<h2><%=image_tag "arrow.png", style:"width:30px; length:30px; position:relative; top:-5px; left:-20px"%> Descubre</h2>
 		<p>Contamos con un gran número de fundaciones vinculadas, busca la que más se adapte a tus gustos.</p>
 	</div>	
 	<div class="span4">
-		<h2>Enlistate</h2>
+		<h2><%=image_tag "arrow.png", style:"width:30px; length:30px; position:relative; top:-5px; left:-20px"%> Enlistate</h2>
 		<p>Contactanos para iniciar tu proceso de participación</p>
 	</div>	
-	<div>
-		<h2>Participa</h2>
+	<div class="span4">
+		<h2><%=image_tag "arrow.png", style:"width:30px; length:30px; position:relative; top:-5px; left:-20px"%> Participa</h2>
 		<p>Inicia tu proceso de participación ahora, son muchas las cosas que tienes por aprender y aportar</p>
 	</div>	
 
