@@ -3,7 +3,7 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def organizaciones
+  def orgbank
   end	
 
   def help

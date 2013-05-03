@@ -5,7 +5,7 @@ SampleApp::Application.routes.draw do
 
   match '/signup',  to: 'users#new'
 
-  match '/organizaciones', to: 'static_pages#organizaciones'
+  match '/orgbank', to: 'static_pages#orgbank'
   match '/help',    to: 'static_pages#help'
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
