@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background:url(assets/textured_paper.png);
+  background:url(polaroid.png);
   padding-top: 60px;
 }
 
@@ -86,17 +86,14 @@ p {
 /* footer */
 
 footer {
-  position:fixed;
-  bottom:20px;
-  width:50%;
-  margin-top: 45px;
+   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid $grayMediumLight;
-  color: $grayLight;
+  border-top: 1px solid #eaeaea;
+  color: #999;
   a {
-    color: $gray;
+    color: #555;
     &:hover { 
-      color: $grayDarker;
+      color: #222;
     }
   }  
   small { 
